@@ -8,5 +8,5 @@
 - [gin实例--gin响应(7)](https://juejin.im/post/5e12d881e51d4541227ab58a)
 - [gin实例--全局中间件(8)](https://juejin.im/post/5e12ec7ae51d4541227ab5ce)
 - [gin实例--中间件Next()(9)](https://juejin.im/post/5e12f2416fb9a04843550b3f)
-
+- [gin实例--局部中间件(10)](https://juejin.im/post/5e12f4a45188253abf5cde07)
 

@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"net/http"
 	"time"
 
 	"github.com/gin-gonic/gin"
@@ -22,21 +23,17 @@ func MiddleWare() gin.HandlerFunc {
 }
 
 func main() {
-	// 1、创建路由
-	// 默认使用了2个中间件Logger(), Recovery()
 	r := gin.Default()
-	// 2、注册全局中间件，作用于所有路由
-	r.Use(MiddleWare())
-	// {}为了代码规范
 	{
-		r.GET("/md1", func(c *gin.Context) {
-			// 取值
+		r.GET("/md3",MiddleWare(),func(c *gin.Context) {
 			req, _ := c.Get("request")
 			fmt.Println("request:", req)
-			// 页面接收
 			c.JSON(200, gin.H{"request": req})
 		})
 
+		r.GET("/test",func(c *gin.Context) {
+			c.String(http.StatusOK,"ok")
+		})
 	}
 	r.Run(":8080")
 }
