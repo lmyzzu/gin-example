@@ -7,5 +7,6 @@
 - [gin实例--自定义验证器(6)](https://juejin.im/post/5e12d2c25188253a9278f209)
 - [gin实例--gin响应(7)](https://juejin.im/post/5e12d881e51d4541227ab58a)
 - [gin实例--全局中间件(8)](https://juejin.im/post/5e12ec7ae51d4541227ab5ce)
+- [gin实例--中间件Next()(9)](https://juejin.im/post/5e12f2416fb9a04843550b3f)
 
 
