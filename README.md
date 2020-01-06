@@ -5,6 +5,6 @@
 - [gin实例--获取参数(4)](https://juejin.im/post/5e0f0028e51d45414c769780)
 - [gin实例--参数绑定(5)](https://juejin.im/post/5e129646e51d4540e63d8853)
 - [gin实例--自定义验证器(6)](https://juejin.im/post/5e12d2c25188253a9278f209)
-- [gin实例--gin实例--gin响应(7)](https://juejin.im/post/5e12d881e51d4541227ab58a)
+- [gin实例--gin响应(7)](https://juejin.im/post/5e12d881e51d4541227ab58a)
 
 
