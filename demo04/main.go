@@ -5,14 +5,11 @@ import (
 	"net/http"
 )
 
+// 定义接收数据的结构体
+// binding:"required"：校验规则，不能为空
 type Login struct {
 	User     string `form:"user" json:"user" binding:"required"`
 	Password string `form:"password" json:"password" binding:"required"`
-}
-
-type Blog struct {
-	ID int `uri:"tag_id" binding:"required"`
-	Name string `uri:"blog_name" binding:"required"`
 }
 
 func main() {
@@ -20,7 +17,9 @@ func main() {
 
 	// 1) 绑定 url query
 	router.GET("/test/url/query", func(c *gin.Context) {
+		// 声明接收的变量
 		var urlQuery Login
+		// 将request的query中的数据，自动解析到结构体
 		if err := c.ShouldBindQuery(&urlQuery); err != nil {
 			c.String(http.StatusBadRequest, err.Error())
 		}
@@ -39,13 +38,12 @@ func main() {
 	// 3) 绑定json数据
 	router.POST("/json", func(c *gin.Context) {
 		var json Login
-		if err := c.BindJSON(&json); err != nil {
+		if err := c.ShouldBindJSON(&json); err != nil {
 			c.String(http.StatusBadRequest, err.Error())
 		}
 		c.String(http.StatusOK, "Success")
 	})
 
-	// 4)绑定
 
 
 
