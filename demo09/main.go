@@ -32,7 +32,7 @@ func main() {
 		})
 
 		r.GET("/test",func(c *gin.Context) {
-			c.String(http.StatusOK,"ok")
+			c.String(http.StatusOK,"ok2")
 		})
 	}
 	r.Run(":8080")

@@ -7,7 +7,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-// 定义中间
+// 定义中间件
 func MiddleWare() gin.HandlerFunc {
 	return func(c *gin.Context) {
 		t := time.Now()
