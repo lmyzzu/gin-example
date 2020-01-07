@@ -11,4 +11,5 @@
 10. [gin实例--局部中间件(10)](https://juejin.im/post/5e12f4a45188253abf5cde07)
 11. [gin实例--cookie(11)](https://juejin.im/post/5e1302855188253aac0cccbe)
 12. [gin实例--热更新(12)](https://juejin.im/post/5e1309fce51d4541111e9a1e)
+13. [gin实例--viper基本用法](https://juejin.im/post/5e13fe895188253a907119df)
 
