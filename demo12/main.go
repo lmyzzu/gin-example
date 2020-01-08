@@ -19,9 +19,8 @@ func main() {
 		log.Fatalf("Fail to parse 'conf/app.ini': %v", err)
 	}
 	if env == "" {
-		a := cfg.Section("env")
-		b, _ := a.GetKey("value")
-		env = b.String()
+		envValue,_:= cfg.Section("env").GetKey("value")
+		env = envValue.String()
 	}
 	section := cfg.Section(env)
 	addr, err := section.GetKey("addr")
