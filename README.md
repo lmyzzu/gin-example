@@ -13,4 +13,5 @@
 12. [gin实例--热更新(12)](https://juejin.im/post/5e1309fce51d4541111e9a1e)
 13. [gin实例--viper基本用法](https://juejin.im/post/5e13fe895188253a907119df)
 14. [gin实例--根据环境读取配置信息](https://juejin.im/post/5e143806f265da5d4d522441)
+15. [gin实例-使用gin自带log](https://juejin.im/post/5e16db82f265da3e32607e56)
 

@@ -4,3 +4,6 @@
 
 [GIN-debug] GET    /test/log                 --> main.main.func2 (3 handlers)
 [GIN-debug] Listening and serving HTTP on :8080
+test log
+map[a:1 b:2 c:3]
+127.0.0.1 - [Thu, 09 Jan 2020 16:52:57 CST] "GET /test/log HTTP/1.1 200 148.473µs "PostmanRuntime/7.19.0" "
