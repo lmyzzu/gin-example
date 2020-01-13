@@ -15,6 +15,7 @@
 14. [gin实例--根据环境读取配置信息](https://juejin.im/post/5e143806f265da5d4d522441)
 15. [gin实例--使用gin自带log](https://juejin.im/post/5e16db82f265da3e32607e56)
 16. [gin实例--使用logrus自定义日志中间件](https://juejin.im/post/5e17e7ecf265da3df47ad81b)
+17. [gin实例--静态文件服务](https://juejin.im/post/5e1be2dae51d4557e41c7536)
 
 
 
